@@ -1,0 +1,45 @@
+body{
+            margin: 0;
+            padding: 0;
+            background: rgb(0,0,0);
+            background:linear-gradient(90deg, #009ACB 0%, #04001E 100%);
+            animation: gradient 10s infinite linear;
+            background-size: 400%;
+        }
+        h1{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+        .box{
+            margin: 10% auto 0;
+            width: 860px;
+            height: 530px;
+            background: rgba(0, 0, 0, 0.31);
+            border-radius: 16px;
+            text-align: center;
+        }
+        input{
+            margin-top: 50px;
+            width: 285px;
+            height: 63px;
+            background: linear-gradient(90deg, rgba(0, 255, 255, 0.72) 0%, rgba(12, 255, 255, 0.108) 100%);
+            border-radius: 54px;
+            cursor: default;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 80% 0%;
+            }
+            50% {
+                background-position: 20% 100%;
+            }
+            100% {
+                background-position: 80% 0%;
+            }
+        }
